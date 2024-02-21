@@ -3,7 +3,7 @@ on: workflow_dispatch
 env:
   AWS_REGION: eu-central-1
   ECR_REPOSITORY: vprofileapp
-  EKS_CLUSTER: vprofile-eks
+  EKS_CLUSTER: vprofile-mianhu-eks
 
 jobs:
   Testing:
